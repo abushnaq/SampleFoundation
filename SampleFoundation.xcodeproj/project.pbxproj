@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9377D17C1AE1868000CB5410 /* SampleSubFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9377D17B1AE1868000CB5410 /* SampleSubFoundation.m */; };
 		93F03F261AE139EE0056DD7E /* SampleFoundation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F03F251AE139EE0056DD7E /* SampleFoundation.h */; };
 		93F03F281AE139EE0056DD7E /* SampleFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F03F271AE139EE0056DD7E /* SampleFoundation.m */; };
 		93F03F2E1AE139EE0056DD7E /* libSampleFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F03F221AE139EE0056DD7E /* libSampleFoundation.a */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9377D17A1AE1868000CB5410 /* SampleSubFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleSubFoundation.h; path = SampleSubFoundation/SampleSubFoundation.h; sourceTree = SOURCE_ROOT; };
+		9377D17B1AE1868000CB5410 /* SampleSubFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleSubFoundation.m; path = SampleSubFoundation/SampleSubFoundation.m; sourceTree = SOURCE_ROOT; };
 		93F03F221AE139EE0056DD7E /* libSampleFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F03F251AE139EE0056DD7E /* SampleFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleFoundation.h; sourceTree = "<group>"; };
 		93F03F271AE139EE0056DD7E /* SampleFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleFoundation.m; sourceTree = "<group>"; };
@@ -62,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9377D1791AE1866800CB5410 /* SampleSubFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				9377D17A1AE1868000CB5410 /* SampleSubFoundation.h */,
+				9377D17B1AE1868000CB5410 /* SampleSubFoundation.m */,
+			);
+			name = SampleSubFoundation;
+			sourceTree = "<group>";
+		};
 		93F03F191AE139EE0056DD7E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,7 @@
 		93F03F241AE139EE0056DD7E /* SampleFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				9377D1791AE1866800CB5410 /* SampleSubFoundation */,
 				93F03F251AE139EE0056DD7E /* SampleFoundation.h */,
 				93F03F271AE139EE0056DD7E /* SampleFoundation.m */,
 			);
@@ -194,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F03F281AE139EE0056DD7E /* SampleFoundation.m in Sources */,
+				9377D17C1AE1868000CB5410 /* SampleSubFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +376,7 @@
 				93F03F381AE139EE0056DD7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93F03F391AE139EE0056DD7E /* Build configuration list for PBXNativeTarget "SampleFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +385,7 @@
 				93F03F3B1AE139EE0056DD7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

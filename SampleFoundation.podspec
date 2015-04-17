@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SampleFoundation"
-  s.version      = "0.0.5.1"
+  s.version      = "0.0.5.2"
   s.summary      = "Summary is it."
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/abushnaq/SampleFoundation.git", :tag => "0.0.5.1" }
+  s.source       = { :git => "https://github.com/abushnaq/SampleFoundation.git", :tag => "0.0.5.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,4 +133,9 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
+
+s.subspec "SampleSubFoundation" do |sp|
+  sp.source_files = "SampleSubFoundation/*.{h,m}"
+  sp.version = "0.0.1"
+end
 end
