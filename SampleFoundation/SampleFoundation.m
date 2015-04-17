@@ -13,4 +13,9 @@
 {
     NSLog(@"10:51 AM");
 }
+
+- (void)doThings
+{
+    NSLog(@"%@", [NSDate date]);
+}
 @end
