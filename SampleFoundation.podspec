@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SampleFoundation"
-  s.version      = "0.0.2.LOCAL"
+  s.version      = "0.0.2"
   s.summary      = ""
 
   s.description  = <<-DESC
