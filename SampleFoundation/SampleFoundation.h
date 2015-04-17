@@ -10,4 +10,6 @@
 
 @interface SampleFoundation : NSObject
 
+
+- (void)doStuff;
 @end

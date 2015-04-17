@@ -9,5 +9,8 @@
 #import "SampleFoundation.h"
 
 @implementation SampleFoundation
-
+- (void)doStuff
+{
+    NSLog(@"Hello world, doin' stuff");
+}
 @end
