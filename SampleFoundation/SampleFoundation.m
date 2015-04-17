@@ -11,7 +11,7 @@
 @implementation SampleFoundation
 - (void)doStuff
 {
-    NSLog(@"10:51 AM");
+    NSLog(@"11:51 AM");
 }
 
 - (void)doThings
