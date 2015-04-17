@@ -11,6 +11,6 @@
 @implementation SampleFoundation
 - (void)doStuff
 {
-    NSLog(@"Hello world, doin' stuff");
+    NSLog(@"Good bye world, done with stuff");
 }
 @end
