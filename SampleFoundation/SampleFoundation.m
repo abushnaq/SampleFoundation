@@ -16,6 +16,6 @@
 
 - (void)doThings
 {
-    NSLog(@"%@", [NSDate date]);
+	NSLog(@"My things are done!");
 }
 @end

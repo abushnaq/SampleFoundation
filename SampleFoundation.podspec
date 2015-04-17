@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SampleFoundation"
-  s.version      = "0.0.5"
+  s.version      = "0.0.5.1"
   s.summary      = "Summary is it."
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/abushnaq/SampleFoundation.git", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/abushnaq/SampleFoundation.git", :tag => "0.0.5.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
